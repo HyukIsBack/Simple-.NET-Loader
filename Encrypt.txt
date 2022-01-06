@@ -1,7 +1,3 @@
-# Simple .NET Loader
- well-known as crypter or stub
-
-# Encrypt Code
 public static string Encrypt(string textToEncrypt, string key)
         {
             RijndaelManaged RijndaelCipher = new RijndaelManaged();
