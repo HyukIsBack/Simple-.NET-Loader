@@ -2,6 +2,7 @@
  well-known as crypter or stub
 
 # Encrypt Code
+```C#
 public static string Encrypt(string textToEncrypt, string key)
         {
             RijndaelManaged RijndaelCipher = new RijndaelManaged();
@@ -18,3 +19,4 @@ public static string Encrypt(string textToEncrypt, string key)
             cryptoStream.Close();
             return Convert.ToBase64String(CipherBytes);
         }
+```
