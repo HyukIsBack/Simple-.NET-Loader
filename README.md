@@ -20,3 +20,5 @@ public static string Encrypt(string textToEncrypt, string key)
             return Convert.ToBase64String(CipherBytes);
         }
 ```
+
+For educational
